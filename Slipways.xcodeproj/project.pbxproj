@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FC1EFD0235BB8F500221A82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1EFCF235BB8F500221A82 /* AppDelegate.swift */; };
+		1FC1EFD2235BB8F500221A82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1EFD1235BB8F500221A82 /* SceneDelegate.swift */; };
+		1FC1EFD4235BB8F500221A82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1EFD3235BB8F500221A82 /* ContentView.swift */; };
+		1FC1EFD6235BB8F600221A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC1EFD5235BB8F600221A82 /* Assets.xcassets */; };
+		1FC1EFD9235BB8F600221A82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC1EFD8235BB8F600221A82 /* Preview Assets.xcassets */; };
+		1FC1EFDC235BB8F600221A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC1EFDA235BB8F600221A82 /* LaunchScreen.storyboard */; };
+		1FC1EFE7235BB8F600221A82 /* SlipwaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1EFE6235BB8F600221A82 /* SlipwaysTests.swift */; };
+		1FC1EFF2235BB8F600221A82 /* SlipwaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1EFF1235BB8F600221A82 /* SlipwaysUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FC1EFE3235BB8F600221A82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC1EFC4235BB8F500221A82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC1EFCB235BB8F500221A82;
+			remoteInfo = Slipways;
+		};
+		1FC1EFEE235BB8F600221A82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC1EFC4235BB8F500221A82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC1EFCB235BB8F500221A82;
+			remoteInfo = Slipways;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FC1EFCC235BB8F500221A82 /* Slipways.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slipways.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC1EFCF235BB8F500221A82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FC1EFD1235BB8F500221A82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1FC1EFD3235BB8F500221A82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FC1EFD5235BB8F600221A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FC1EFD8235BB8F600221A82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FC1EFDB235BB8F600221A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FC1EFDD235BB8F600221A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC1EFE2235BB8F600221A82 /* SlipwaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlipwaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC1EFE6235BB8F600221A82 /* SlipwaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipwaysTests.swift; sourceTree = "<group>"; };
+		1FC1EFE8235BB8F600221A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC1EFED235BB8F600221A82 /* SlipwaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlipwaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC1EFF1235BB8F600221A82 /* SlipwaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipwaysUITests.swift; sourceTree = "<group>"; };
+		1FC1EFF3235BB8F600221A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FC1EFC9235BB8F500221A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC1EFDF235BB8F600221A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC1EFEA235BB8F600221A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FC1EFC3235BB8F500221A82 = {
+			isa = PBXGroup;
+			children = (
+				1FC1EFCE235BB8F500221A82 /* Slipways */,
+				1FC1EFE5235BB8F600221A82 /* SlipwaysTests */,
+				1FC1EFF0235BB8F600221A82 /* SlipwaysUITests */,
+				1FC1EFCD235BB8F500221A82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FC1EFCD235BB8F500221A82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FC1EFCC235BB8F500221A82 /* Slipways.app */,
+				1FC1EFE2235BB8F600221A82 /* SlipwaysTests.xctest */,
+				1FC1EFED235BB8F600221A82 /* SlipwaysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FC1EFCE235BB8F500221A82 /* Slipways */ = {
+			isa = PBXGroup;
+			children = (
+				1FC1EFCF235BB8F500221A82 /* AppDelegate.swift */,
+				1FC1EFD1235BB8F500221A82 /* SceneDelegate.swift */,
+				1FC1EFD3235BB8F500221A82 /* ContentView.swift */,
+				1FC1EFD5235BB8F600221A82 /* Assets.xcassets */,
+				1FC1EFDA235BB8F600221A82 /* LaunchScreen.storyboard */,
+				1FC1EFDD235BB8F600221A82 /* Info.plist */,
+				1FC1EFD7235BB8F600221A82 /* Preview Content */,
+			);
+			path = Slipways;
+			sourceTree = "<group>";
+		};
+		1FC1EFD7235BB8F600221A82 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FC1EFD8235BB8F600221A82 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FC1EFE5235BB8F600221A82 /* SlipwaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FC1EFE6235BB8F600221A82 /* SlipwaysTests.swift */,
+				1FC1EFE8235BB8F600221A82 /* Info.plist */,
+			);
+			path = SlipwaysTests;
+			sourceTree = "<group>";
+		};
+		1FC1EFF0235BB8F600221A82 /* SlipwaysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FC1EFF1235BB8F600221A82 /* SlipwaysUITests.swift */,
+				1FC1EFF3235BB8F600221A82 /* Info.plist */,
+			);
+			path = SlipwaysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FC1EFCB235BB8F500221A82 /* Slipways */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC1EFF6235BB8F600221A82 /* Build configuration list for PBXNativeTarget "Slipways" */;
+			buildPhases = (
+				1FC1EFC8235BB8F500221A82 /* Sources */,
+				1FC1EFC9235BB8F500221A82 /* Frameworks */,
+				1FC1EFCA235BB8F500221A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slipways;
+			productName = Slipways;
+			productReference = 1FC1EFCC235BB8F500221A82 /* Slipways.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FC1EFE1235BB8F600221A82 /* SlipwaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC1EFF9235BB8F600221A82 /* Build configuration list for PBXNativeTarget "SlipwaysTests" */;
+			buildPhases = (
+				1FC1EFDE235BB8F600221A82 /* Sources */,
+				1FC1EFDF235BB8F600221A82 /* Frameworks */,
+				1FC1EFE0235BB8F600221A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FC1EFE4235BB8F600221A82 /* PBXTargetDependency */,
+			);
+			name = SlipwaysTests;
+			productName = SlipwaysTests;
+			productReference = 1FC1EFE2235BB8F600221A82 /* SlipwaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FC1EFEC235BB8F600221A82 /* SlipwaysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC1EFFC235BB8F600221A82 /* Build configuration list for PBXNativeTarget "SlipwaysUITests" */;
+			buildPhases = (
+				1FC1EFE9235BB8F600221A82 /* Sources */,
+				1FC1EFEA235BB8F600221A82 /* Frameworks */,
+				1FC1EFEB235BB8F600221A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FC1EFEF235BB8F600221A82 /* PBXTargetDependency */,
+			);
+			name = SlipwaysUITests;
+			productName = SlipwaysUITests;
+			productReference = 1FC1EFED235BB8F600221A82 /* SlipwaysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FC1EFC4235BB8F500221A82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Marcel Benders";
+				TargetAttributes = {
+					1FC1EFCB235BB8F500221A82 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					1FC1EFE1235BB8F600221A82 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 1FC1EFCB235BB8F500221A82;
+					};
+					1FC1EFEC235BB8F600221A82 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 1FC1EFCB235BB8F500221A82;
+					};
+				};
+			};
+			buildConfigurationList = 1FC1EFC7235BB8F500221A82 /* Build configuration list for PBXProject "Slipways" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FC1EFC3235BB8F500221A82;
+			productRefGroup = 1FC1EFCD235BB8F500221A82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FC1EFCB235BB8F500221A82 /* Slipways */,
+				1FC1EFE1235BB8F600221A82 /* SlipwaysTests */,
+				1FC1EFEC235BB8F600221A82 /* SlipwaysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FC1EFCA235BB8F500221A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC1EFDC235BB8F600221A82 /* LaunchScreen.storyboard in Resources */,
+				1FC1EFD9235BB8F600221A82 /* Preview Assets.xcassets in Resources */,
+				1FC1EFD6235BB8F600221A82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC1EFE0235BB8F600221A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC1EFEB235BB8F600221A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FC1EFC8235BB8F500221A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC1EFD0235BB8F500221A82 /* AppDelegate.swift in Sources */,
+				1FC1EFD2235BB8F500221A82 /* SceneDelegate.swift in Sources */,
+				1FC1EFD4235BB8F500221A82 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC1EFDE235BB8F600221A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC1EFE7235BB8F600221A82 /* SlipwaysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC1EFE9235BB8F600221A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC1EFF2235BB8F600221A82 /* SlipwaysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FC1EFE4235BB8F600221A82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC1EFCB235BB8F500221A82 /* Slipways */;
+			targetProxy = 1FC1EFE3235BB8F600221A82 /* PBXContainerItemProxy */;
+		};
+		1FC1EFEF235BB8F600221A82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC1EFCB235BB8F500221A82 /* Slipways */;
+			targetProxy = 1FC1EFEE235BB8F600221A82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FC1EFDA235BB8F600221A82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC1EFDB235BB8F600221A82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FC1EFF4235BB8F600221A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FC1EFF5235BB8F600221A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FC1EFF7235BB8F600221A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Slipways/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GGU8ET2C4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Slipways/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.b-velop.Slipways";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FC1EFF8235BB8F600221A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Slipways/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GGU8ET2C4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Slipways/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.b-velop.Slipways";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FC1EFFA235BB8F600221A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GGU8ET2C4;
+				INFOPLIST_FILE = SlipwaysTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.b-velop.SlipwaysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slipways.app/Slipways";
+			};
+			name = Debug;
+		};
+		1FC1EFFB235BB8F600221A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GGU8ET2C4;
+				INFOPLIST_FILE = SlipwaysTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.b-velop.SlipwaysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slipways.app/Slipways";
+			};
+			name = Release;
+		};
+		1FC1EFFD235BB8F600221A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GGU8ET2C4;
+				INFOPLIST_FILE = SlipwaysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.b-velop.SlipwaysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Slipways;
+			};
+			name = Debug;
+		};
+		1FC1EFFE235BB8F600221A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GGU8ET2C4;
+				INFOPLIST_FILE = SlipwaysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.b-velop.SlipwaysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Slipways;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FC1EFC7235BB8F500221A82 /* Build configuration list for PBXProject "Slipways" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC1EFF4235BB8F600221A82 /* Debug */,
+				1FC1EFF5235BB8F600221A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC1EFF6235BB8F600221A82 /* Build configuration list for PBXNativeTarget "Slipways" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC1EFF7235BB8F600221A82 /* Debug */,
+				1FC1EFF8235BB8F600221A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC1EFF9235BB8F600221A82 /* Build configuration list for PBXNativeTarget "SlipwaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC1EFFA235BB8F600221A82 /* Debug */,
+				1FC1EFFB235BB8F600221A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC1EFFC235BB8F600221A82 /* Build configuration list for PBXNativeTarget "SlipwaysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC1EFFD235BB8F600221A82 /* Debug */,
+				1FC1EFFE235BB8F600221A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FC1EFC4235BB8F500221A82 /* Project object */;
+}
